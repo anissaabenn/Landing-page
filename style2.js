@@ -4,7 +4,7 @@ const text = document.querySelector('h3');
 function getChrono(){
 
 const now = new Date().getTime();
-const countdownDate = new Date('Jun 30, 2022').getTime();
+const countdownDate = new Date('Jul 01, 2022').getTime();
 
 
 const distanceBase = countdownDate - now;
